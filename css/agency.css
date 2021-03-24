@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #E9DEEC;
 }
 
 a:hover {
-  color: #fec503;
+  color: #E9DEEC;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #E9DEEC !important;
 }
 
 h1,
@@ -35,23 +35,44 @@ h6 {
   font-family: 'Josefin Slab', serif;
 }
 
-.page-section {
-  padding: 100px 0;
+.page-section h1.section-heading {
+  font-size: 40px;
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important
 }
 
 .page-section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important
 }
 
 .page-section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.page-section h4.section-heading {
+  font-size: 40px;
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important
+}
+
+.page-section h5.section-heading {
+  font-size: 40px;
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important
+}
+
+.page-section h6.section-heading {
+  font-size: 40px;
+  margin-top: 6rem!important;
+  margin-bottom: 6rem!important
 }
 
 @media (min-width: 768px) {
@@ -61,12 +82,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #E9DEEC;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #E9DEEC;
   text-shadow: none;
 }
 
@@ -93,69 +114,79 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: ##8c6b83;
+  background-color: #8c6b83;
   border-color: #8c6b83;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #8c6b83 !important;
   border-color: #8c6b83 !important;
-  color: white;
+  color: #E9DEEC;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  Color: #8c6b83;
 }
 
+
 #mainNav {
-  background-color: #212529;
+  background-color: #8c6b83;
 }
+
 
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
-  padding: 13px;
+  padding: 5px;
   text-transform: uppercase;
-  color: white;
+  color: #E9DEEC;
   border: 0;
-  background-color: #fed136;
+  background-color: #8c6b83;
   font-family: 'Josefin Slab', serif;
 }
+
 
 #mainNav .navbar-brand {
-  color: #8c6b83;
+  color: #E9DEEC;
   font-weight: 700;
   font-family: 'Josefin Slab', serif;
+  background-color: #8c6b83;
 }
 
+
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #8c6b83;
 }
+
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
-  padding: 0.75em 0;
+  padding: 0.60em 0;
   letter-spacing: 1px;
   color: white;
   font-family: 'Josefin Slab', serif;
+  background-color: #8c6b83;
 }
+
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #8c6b83;;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 700px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #8c6b83;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: all 0.3s;
+    background-color: #8c6b83;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -163,17 +194,17 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #8c6b83;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
-    padding: 12px 0;
+    padding: 5px 0;
   }
 }
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: #E9DEEC;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -182,13 +213,12 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 130px;
+  padding-bottom: 80px;
 }
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Josefin Slab', serif;
@@ -196,30 +226,32 @@ header.masthead .intro-text .intro-lead-in {
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
+  font-style: Bold;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Josefin Slab', serif;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   header.masthead .intro-text {
     padding-top: 300px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
-    font-style: italic;
+    font-weight: 200;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Josefin Slab', serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
+    font-style: Bold;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Catamaran', sans-serif;
   }
 }
 
@@ -262,7 +294,7 @@ header.masthead .intro-text .intro-heading {
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: white;
+  color: #E9DEEC;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -440,7 +472,7 @@ header.masthead .intro-text .intro-heading {
   height: 80px;
   margin-left: 0;
   text-align: center;
-  color: white;
+  color: #E9DEEC;
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #fed136;
@@ -593,7 +625,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #E9DEEC;
 }
 
 section#contact .form-group {
@@ -620,25 +652,25 @@ section#contact .form-control:focus {
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #E9DEEC;
   font-family: 'Josefin Slab', serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #E9DEEC;
   font-family: 'Josefin Slab', serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #E9DEEC;
   font-family: 'Josefin Slab', serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #E9DEEC;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -673,7 +705,7 @@ ul.social-buttons li a {
   width: 50px;
   height: 50px;
   transition: all 0.3s;
-  color: white;
+  color: #E9DEEC;
   border-radius: 100%;
   outline: none;
   background-color: #212529;
