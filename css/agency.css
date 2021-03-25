@@ -132,7 +132,7 @@ img::-moz-selection {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(233, 222, 236, 0.9) !important;
   Color: #8c6b83;
 }
 
@@ -286,7 +286,7 @@ header.masthead .intro-text .intro-heading {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(233, 222, 236, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -611,7 +611,7 @@ header.masthead .intro-text .intro-heading {
 .team-member img {
   width: 225px;
   height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
+  border: 7px solid rgba(233, 222, 236, 0.9);
 }
 
 .team-member h4 {
