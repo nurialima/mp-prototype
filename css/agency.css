@@ -34,6 +34,13 @@ h6 {
   font-weight: 700;
   font-family: 'Josefin Slab', serif;
 }
+.logo-image {
+  width: 200px;
+  height: 100px;
+  background-image: url(img/logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .page-section h1.section-heading {
   font-size: 40px;
@@ -473,9 +480,9 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: #E9DEEC;
-  border: 7px solid #e9ecef;
+  border: 7px solid #E9DEEC;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #8c6b83;
 }
 
 .timeline > li .timeline-image h4 {
