@@ -41,6 +41,14 @@ h6 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.colour-evidence {
+  Width: 500px;
+  height:300px;
+}
+.typography-evidence {
+  Width: 500px;
+  height:300px;
+}
 
 .page-section h1.section-heading {
   font-size: 40px;
@@ -52,6 +60,7 @@ h6 {
   font-size: 40px;
   margin-top: 6rem!important;
   margin-bottom: 6rem!important
+  font-family: 'Catamaran', sans-serif;
 }
 
 .page-section h3.section-subheading {
@@ -121,24 +130,24 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #8c6b83;
-  border-color: #8c6b83;
+  background-color: #B7A1BC;
+  border-color: #B7A1BC;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #8c6b83 !important;
-  border-color: #8c6b83 !important;
+  background-color: #B7A1BC !important;
+  border-color: #B7A1BC !important;
   color: #E9DEEC;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(233, 222, 236, 0.9) !important;
-  Color: #8c6b83;
+  Color: #B7A1BC;
 }
 
 
 #mainNav {
-  background-color: #8c6b83;
+  background-color: #B7A1BC;
 }
 
 
@@ -149,7 +158,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #E9DEEC;
   border: 0;
-  background-color: #8c6b83;
+  background-color: #B7A1BC;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -158,12 +167,12 @@ img::-moz-selection {
   color: #E9DEEC;
   font-weight: 700;
   font-family: 'Josefin Slab', serif;
-  background-color: #8c6b83;
+  background-color: #B7A1BC;
 }
 
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #8c6b83;
+  color: #B7A1BC;
 }
 
 
@@ -174,12 +183,12 @@ img::-moz-selection {
   letter-spacing: 1px;
   color: white;
   font-family: 'Josefin Slab', serif;
-  background-color: #8c6b83;
+  background-color: #B7A1BC;
 }
 
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #8c6b83;;
+  color: #B7A1BC;;
 }
 
 @media (min-width: 700px) {
@@ -188,12 +197,12 @@ img::-moz-selection {
     padding-bottom: 5px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #8c6b83;
+    background-color: #B7A1BC;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: all 0.3s;
-    background-color: #8c6b83;
+    background-color: #B7A1BC;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -201,7 +210,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #8c6b83;
+    background-color: #B7A1BC;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -228,7 +237,7 @@ header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -250,7 +259,7 @@ header.masthead .intro-text .intro-heading {
     font-weight: 200;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Catamaran', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -482,7 +491,7 @@ header.masthead .intro-text .intro-heading {
   color: #E9DEEC;
   border: 7px solid #E9DEEC;
   border-radius: 100%;
-  background-color: #8c6b83;
+  background-color: #B7A1BC;
 }
 
 .timeline > li .timeline-image h4 {
